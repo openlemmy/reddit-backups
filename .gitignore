@@ -3,3 +3,9 @@
 
 # Environment
 .env
+
+# NPM
+/node_modules
+
+# Python
+.venv

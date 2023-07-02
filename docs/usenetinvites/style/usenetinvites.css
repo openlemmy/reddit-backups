@@ -1,0 +1,1309 @@
+/****************************************************
+
+            reddit caffeine theme
+
+made by /u/brettwilcox
+
+/****************************************************
+                    Theme Options
+****************************************************/
+
+/***********************
+Announcement placements
+    For use with multiple announcements.
+***********************/
+
+/* change 65 to 105 when placing announement */
+div.content {
+    margin-top: 65px !important;
+}
+
+/*Red Announcement Placement*/
+.titlebox .usertext-body .md h3 {
+    left: 23px !important; /* default 23px*/
+}
+
+/*Green Announcement Placement*/
+.titlebox .usertext-body .md h4 {
+    left: 23px !important; /* default 23px*/
+}
+
+/*Gold Announcement Placement*/
+.titlebox .usertext-body .md h5 {
+    left: 23px !important; /* default 23px*/
+}
+
+/***********************
+User Flair (adds text)
+***********************/
+
+.flair-superuser {
+    color: #CFB52B;
+    border: 1px solid #CFB52B;
+    padding-left: 12px;
+    background: url(%%sprite%%) no-repeat -90px -10px #f5f5f5;
+    font-size: 10px;
+}
+
+.flair-trusted {
+    color: #1f901f;
+    border: 1px solid #1f901f;
+    padding-left: 12px;
+    background: url(%%sprite%%) no-repeat -90px 1px #f5f5f5;
+    font-size: 10px;
+}
+
+.flair-verified {
+    color: #1f901f;
+    border: 1px solid #1f901f;
+    padding-left: 12px;
+    background: url(%%sprite%%) no-repeat -90px -10px #f5f5f5;
+    font-size: 10px;
+}
+
+.flair-untrusted {
+    color: #bf0000;
+    border: 1px solid #bf0000;
+    padding-left: 12px;
+    background: url(%%sprite%%) no-repeat -90px -21px #f5f5f5;
+    font-size: 10px;
+}
+
+/***********************
+Link Flair (adds text)
+***********************/
+
+.linkflair-out .linkflairlabel {
+    color: #bf0000;
+    border: 1px solid #bf0000;
+    padding-left :12px;
+    background: url(%%sprite%%) no-repeat -90px -21px #f5f5f5;
+    font-size: 10px;
+    border-radius: 0px;
+    display: inline !important;
+}
+
+.linkflair-invited .linkflairlabel {
+    color: #1f901f;
+    border: 1px solid #1f901f;
+    padding-left: 12px;
+    background: url(%%sprite%%) no-repeat -90px 1px #f5f5f5;
+    font-size: 10px;
+    display: inline !important;
+    border-radius: 0px;
+}
+
+.linkflair-announce .linkflairlabel {
+    color: #CFB52B;
+    border: 1px solid #CFB52B;
+    padding-left: 12px;
+    background: url(%%sprite%%) no-repeat -90px -10px #f5f5f5;
+    font-size: 10px;
+    display: inline !important;
+    border-radius: 0px;
+}
+
+/***********************
+Flair Category Images
+***********************/
+
+.link .midcol,.linkflair-tbt .midcol {
+    background-image: url(%%tag%%);
+    background-position: 100% 0px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+.linkflair-out .midcol {
+    background-image: url(%%tag%%);
+    background-position: 100% -60px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+.linkflair-invited .midcol {
+    background-image: url(%%tag%%);
+    background-position: 100% -120px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+.linkflair-question .midcol {
+    background-image :url(%%tag%%);
+    background-position :100% -180px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+.linkflair-discussion .midcol {
+    background-image: url(%%tag%%);
+    background-position: 100% -240px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+.linkflair-news .midcol {
+    background-image: url(%%tag%%);
+    background-position: 100% -300px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+.linkflair-announce .midcol {
+    background-image: url(%%tag%%);
+    background-position: 100% -360px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+.linkflair-article .midcol {
+    background-image: url(%%tag%%);
+    background-position: 100% -420px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+.linkflair-tracker .midcol {
+    background-image: url(%%tag%%);
+    background-position: 100% -480px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+.linkflair-other .midcol {
+    background-image: url(%%tag%%);
+    background-position: 100% -540px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+.linkflair-ignore .midcol {
+    background-image: url(%%tag%%);
+    background-position: 100% -600px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+.linkflair-informative .midcol {
+    background-image: url(%%tag%%);
+    background-position: 100% -660px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+.linkflair-software .midcol {
+    background-image: url(%%tag%%);
+    background-position: 100% -720px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+.linkflair-provider .midcol {
+    background-image: url(%%tag%%);
+    background-position: 100% -780px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+.linkflair-wanted .midcol {
+    background-image: url(%%tag%%);
+    background-position: 100% -840px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+.linkflair-offering .midcol {
+    background-image: url(%%tag%%);
+    background-position: 100% -900px;
+    padding-right: 35px;
+    background-repeat: no-repeat;
+}
+
+/***********************
+Dropdown Menu Sizes
+***********************/
+.titlebox blockquote ul:nth-of-type(5) {width: 120px;} /* FAQ */
+.titlebox blockquote ul:nth-of-type(4) {width: 125px;} /* Info */
+.titlebox blockquote ul:nth-of-type(3) {width: 150px;} /* Providers */
+.titlebox blockquote ul:nth-of-type(2) {width: 135px;} /* Software */
+.titlebox blockquote ul:nth-of-type(1) {width: 145px;} /* Usenet Invites */
+
+/****************************************************
+                    Global Styles
+****************************************************/
+body {
+    min-width: 1070px;
+    position: relative;
+    background-color: #fafafa;
+}
+
+body > .content {
+    padding-right: 0px !important;
+}
+
+/***********************
+Table Styles
+***********************/
+
+.md table {
+    margin: 15px 0;
+}
+
+table thead tr th {
+    text-align: left;
+    background-color: #999;
+    color: #fff;
+}
+
+.titlebox table thead tr th {
+    text-align: center;
+    background-color: #999;
+    color: #fff;
+}
+
+/****************************************************
+                    Header Styles
+****************************************************/
+
+/***********************
+General Styles
+***********************/
+
+#header {
+    background-color: #e1e1e1;
+    border-bottom: 1px solid #aaa;
+    background: url(%%headerbg%%)
+}
+
+#header-img {
+    margin-left: 25px;
+}
+
+#header-bottom-right {
+    background-color: transparent !important;
+    margin-bottom: 5px;
+}
+
+#header-bottom-right a {
+    color: #000;
+}
+
+#userbarToggle {
+    color: #000 !important;
+    background-color: transparent !important;
+    border-right: none !important;
+}
+
+/***********************
+Makes header reddit name normal
+***********************/
+
+.pagename a {
+    font-variant: normal;
+}
+
+/***********************
+Tabs
+***********************/
+
+.tabmenu li.selected a {
+    color: #000;
+    border: 1px solid #aaa;
+    border-bottom: 1px solid #fafafa;
+    background-color: #fafafa;
+}
+
+.tabmenu li.selected a:hover {
+    color: #000;
+    border: 1px solid #999;
+    border-bottom: 1px solid #fafafa;
+    background-color: #fafafa;
+}
+
+.tabmenu li a {
+    background: none;
+    color: #555;
+}
+
+.tabmenu li a:hover {
+    color: #000;
+}
+
+/***********************
+User Menu Position
+***********************/
+
+#header-bottom-right {
+    margin-right: 30px;
+}
+
+/****************************************************
+                    Side Bar Styles
+****************************************************/
+
+.side {
+    background-color: #fafafa;
+    padding-left: 10px;
+}
+
+.side {
+    width: 295px;
+    background: none;
+    margin: 3px 25px 0 0;
+}
+
+.side .spacer .titlebox,.side .spacer .sidecontentbox {
+    background: #FFF;
+    border: 1px #e3e3e3 solid;
+    padding: 10px;
+}
+
+.morelink .nub {
+    display: none;
+}
+
+.sidebox .spacer {
+    background: none;
+}
+
+.titlebox .usertext-body h1 {
+    padding-top: 10px;
+}
+
+.titlebox table {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.titlebox h1 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.sidecontentbox .content {
+    border: 0px solid gray;
+}
+
+
+/***********************
+Search Styles
+***********************/
+
+#search input[type=text] {
+    border: 1px solid #e3e3e3;
+    border-left: 3px solid #e3e3e3;
+    width: 275px;
+    padding: 8px;
+}
+
+#searchexpando {
+    border-radius: 0 !important;
+    background-color: #fff;
+    border :1px solid #e3e3e3;
+}
+
+/***********************
+Red FAQ Highlight
+***********************/
+
+.titlebox ol {
+    background-color: #FFEDED;
+    font-size: 90%;
+    text-align: justify;
+    color: #000;
+    border-color: #FF4A4A;
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px 0;
+    padding: 5px 20px 5px 30px;
+}
+
+/***********************
+Submit Links
+***********************/
+
+.morelink {
+    border: 1px solid #e3e3e3;
+    border-left: 3px solid #e3e3e3;
+    background-image: none;
+    color: #000;
+}
+
+.morelink:hover {
+    border: 1px solid #e3e3e3;
+    border-left: 3px solid #0099FF;
+    background-color: #fcfcfc;
+    background-image: none;
+    color: #0099FF;
+}
+
+.morelink a {
+    color: #000;
+}
+
+.morelink a:hover, .morelink:hover a {
+    color: #0099FF;
+}
+
+/****************************************************
+                    Main Content Styles
+****************************************************/
+
+/***********************
+Main Page Link List Styles
+***********************/
+.link .usertext-body div.md {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.link .usertext-body div.md p {
+    margin: 10px 0;
+}
+
+.linklisting .thing {
+    border: 1px #e3e3e3 solid;
+    border-left: 3px #e3e3e3 solid;
+    padding: 10px;
+    background: #FFF;
+}
+
+.linklisting .linkflair {
+    background: #FFF;
+}
+
+.link .rank {
+    text-align: center;
+}
+
+.listing-page .linklisting .thing:hover {
+    background-color: #fcfcfc;
+    border-left: 3px #0099FF solid;
+}
+
+.midcol {
+    text-shadow: 0 1px 3px #FFF;
+    min-width: 31px;
+    text-align: center;
+}
+
+.link .midcol {
+
+    margin-right: 15px;
+}
+
+.score {
+    margin: 3px 0;
+}
+
+.thumbnail {
+    margin: 0 10px;
+}
+
+.noncollapsed .flat-list.buttons {
+    font-family: Arial,Verdana;
+}
+
+/***********************
+Previous/Next link styles
+***********************/
+
+.nextprev {
+    width: auto;
+    display: inline-block;
+    border: 1px #e3e3e3 solid;
+    border-left: 3px #e3e3e3 solid;
+    font-variant: small-caps;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.nextprev:hover {
+    border-left: 3px #0099FF solid;
+    background: #fafafa;
+}
+
+.nextprev a {
+    font-variant: normal;
+    background: #FFF;
+    font-family: Arial,Verdana;
+}
+
+.nextprev a:hover {
+    border: 1px solid #ddd;
+    color: #0099FF;
+    background: #fcfcfc;
+}
+
+/***********************
+Vote Arrow Style
+***********************/
+
+.arrow {
+    height: 17px;
+    width: 15px;
+    background-image: url(%%vote%%) !important;
+    margin: 2px auto;
+}
+
+.arrow.down {
+    background-position: 0 -34px !important;
+}
+
+.arrow.downmod {
+    background-position: 0 0 !important;
+}
+
+.arrow.up {
+    background-position: 0 -102px !important;
+}
+
+.arrow.upmod {
+    background-position: 0 -68px !important;
+}
+
+/***********************
+Link Flair Setup
+***********************/
+
+.midcol {
+    text-shadow: 0 1px 3px #FFF;
+    height: 60px;
+    min-width: 31px;
+    margin-right: 0;
+    text-align: center;
+}
+
+.title .linkflairlabel {
+    display: none;
+}
+
+/***********************
+Top Right Score
+***********************/
+
+.linkinfo {
+    background-color: #FFF;
+    color: #363636;
+    text-align: center;
+    font-size: 11px;
+    border: 1px solid #e3e3e3;
+    width: 300px;
+    border-radius: 0 !important;
+    margin: 5px auto 10px;
+    padding: 10px 0 15px;
+}
+
+.linkinfo .downvotes .number,.linkinfo .upvotes .number,.linkinfo .score .number {
+    font-size: 20px !important;
+    display: block;
+    font-weight: 400 !important;
+}
+
+.linkinfo .score {
+    font-size: 11px;
+    display: block;
+    min-width: 80px;
+    margin-left: 25px !important;
+}
+
+.linkinfo .downvotes .word,.linkinfo .upvotes .word {
+    font-size: 11px;
+}
+
+.linkinfo .upvotes,.linkinfo .downvotes,.linkinfo .score {
+    float: left;
+    text-align: center;
+    margin: 8px 10px 10px 0;
+    padding: 5px 10px 5px 0;
+}
+
+.linkinfo .score,.linkinfo .upvotes {
+    border-right: 1px solid #C1BFBF;
+}
+
+.linkinfo .shortlink {
+    clear: both !important;
+    font-size: 10px;
+    border: 1px solid #E7E6E6;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.linkinfo .shortlink input {
+    background: transparent;
+    border: 0;
+    padding-left: 8px;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linkinfo .date {
+    margin-top: -10px;
+    margin-bottom: 7px;
+    color: #333;
+    background-color: #fff;
+    font-size: 12px;
+    padding: 8px;
+    border-bottom: 1px solid #e3e3e3;
+    font-weight: bold;
+}
+
+/***********************
+Additional Moderator Styles
+***********************/
+
+.tabpane-content {
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+}
+
+.linefield {
+background-color: #fff;
+border: 1px solid #e3e3e3;
+}
+
+.linefield .title {
+    color: #000;
+}
+
+/***********************
+Content Submition
+***********************/
+
+.roundfield {
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 0px;
+}
+
+.formtabs-content {
+    border-top: 4px solid #ccc;
+}
+
+.tabmenu.formtab .selected a {
+    background-color: #ccc;
+}
+
+/****************************************************
+                    Comment Styles
+****************************************************/
+
+.parentComment {
+    background-color: #ffffff !important;
+}
+
+.comment {
+    margin: 0 0 8px 0 !important;
+    padding: 5px 8px 0 15px !important;
+    border: 1px solid #e6e6e6 !important;
+    overflow: hidden !important;
+    background-color: #ffffff !important;
+    -webkit-border-radius:0px !important;
+    border-radius:0px !important;
+}
+
+.comment div.child {
+    border-left: none !important;
+}
+
+.comment .comment {
+    margin-right: 0px !important;
+    background-color: #F7F7F8 !important;
+}
+
+.comment .comment .comment {
+    background-color: #ffffff !important;
+}
+
+.comment .comment .comment .comment {
+    background-color: #F7F7F8 !important;
+}
+
+.comment .comment .comment .comment .comment{
+    background-color: #ffffff !important;
+}
+
+.comment .comment .comment .comment .comment .comment{
+    background-color: #F7F7F8 !important;
+}
+
+.comment .comment .comment .comment .comment .comment .comment{
+    background-color: #ffffff !important;
+}
+
+.comment .comment .comment .comment .comment .comment .comment .comment{
+    background-color: #F7F7F8 !important;
+}
+
+.comment .comment .comment .comment .comment .comment .comment .comment .comment{
+    background-color: #ffffff !important;
+}
+
+.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{
+    background-color: #F7F7F8 !important;
+}
+
+.comment .collapsed {
+    padding-left: 31px !important;
+}
+
+/****************************************************
+                    Wiki Styles
+****************************************************/
+
+.wiki-page .wiki-page-content {
+    background: #FFF;
+    border: 1px solid #e3e3e3;
+    margin: 15px 0 0 0 !important;
+    padding: 5px 25px;
+}
+
+.wiki-page .pageactions {
+    border-radius: 0px !important;
+    border: 1px solid #e3e3e3 !important;
+    background-color: #fff !important;
+    float: right;
+}
+
+.wiki-page .wiki-page-content .md.wiki>.toc>ul {
+    border: 1px solid #e1e1e1 !important;
+}
+
+.wiki-page .wiki-page-content .md.wiki>.toc>ul ul {
+    border-left: 1px dotted #e1e1e1 !important;
+}
+
+.wiki-page .pageactions .wikiaction {
+    border-radius: 0px !important;
+}
+
+.wiki-page .pageactions .wikiaction:hover {
+    background-color: #fafafa !important;
+    color: #0099FF !important;
+}
+
+.wiki-page .pageactions .wikiaction-current {
+    background-color: #999 !important;
+}
+
+/****************************************************
+                    Announcements
+
+Use for announcements.  Place the following below the
+dropdown menu in the sidebar.
+
+### = RED
+#### = GREEN
+##### = GOLD
+
+***  Examples  ***
+
+### [This announcement will be red.](http://www.link.com)
+#### [This announcement will be green.](http://www.example.com)
+##### [This announcement will be gold.](http://www.link2.com)
+****************************************************/
+
+/***********************
+General Styles
+***********************/
+
+.titlebox form {
+    position: static;
+}
+
+/***********************
+        Red
+***********************/
+.titlebox .usertext-body .md h3 {
+    list-style: none;
+    position: absolute;
+    top: 127px;
+    left: 23px;
+    margin: 0 3px;
+    padding: 0;
+    display: inline !important;
+}
+
+.titlebox .usertext-body .md h3 a {
+    background-color: #B22222 !important;
+    color: #FEFEFE !important;
+    text-shadow: 1px 1px 1px #000 !important;
+    border: 1px solid #000 !important;
+    color: #fff !important;
+    font-weight: 400;
+    padding: 5px;
+    font-family: verdana, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 12px;
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.titlebox .usertext-body .md h3 a:hover {
+    background-color: #D22222!important;
+}
+
+/***********************
+        Green
+***********************/
+.titlebox .usertext-body .md h4 {
+    list-style: none;
+    position: absolute;
+    top: 127px;
+    left: 250px;
+    margin: 0 3px;
+    padding: 0;
+    display: inline !important;
+}
+
+.titlebox .usertext-body .md h4 a {
+    background-color: #008F00 !important;
+    color: #FEFEFE !important;
+    text-shadow: 1px 1px 1px #000 !important;
+    border: 1px solid #000 !important;
+    color: #fff !important;
+    font-weight: 400;
+    padding: 5px;
+    font-family: verdana, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 12px;
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.titlebox .usertext-body .md h4 a:hover {
+    background-color: #32a532 !important;
+}
+
+/***********************
+        Gold
+***********************/
+.titlebox .usertext-body .md h5 {
+    list-style: none;
+    position: absolute;
+    top: 127px;
+    left: 250px;
+    margin: 0 3px;
+    padding: 0;
+    display: inline !important;
+}
+
+.titlebox .usertext-body .md h5 a {
+    background-color: #A3A300 !important;
+    color: #FEFEFE !important;
+    text-shadow: 1px 1px 1px #000 !important;
+    border: 1px solid #000 !important;
+    color: #fff !important;
+    font-weight: 400;
+    padding: 5px;
+    font-family: verdana, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 12px;
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.titlebox .usertext-body .md h5 a:hover {
+    background-color: #B5B533 !important;
+}
+
+/****************************************************
+                    Dropdown Menu
+****************************************************/
+
+/*moves links down to make space*/
+div.content {
+    margin: 65px 345px 25px 25px;
+}
+
+/*hack to enable positioning of child elements*/
+.titlebox form {
+    position: static;
+}
+
+/*turns top quote in sidebar into menu container*/
+.titlebox blockquote:first-child {
+    border-left: none;
+    position: absolute;
+    z-index: 10;
+    top: 72px;
+    left: 12px;
+}
+
+/*turns first paragraph into menu title*/
+.titlebox blockquote:first-child p:first-child {
+    margin-top: 5px;
+    padding: 5px;
+    float: left;
+    font-size: 13pt;
+    background: #fff;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    border-left: 3px solid #e3e3e3;
+    font-weight: bold;
+    color: #000;
+    display: block;
+    cursor: default;
+}
+
+.titlebox blockquote:first-child p:first-child a, .titlebox blockquote:first-child p:first-child a:hover {
+    color: #000;
+}
+
+.titlebox blockquote:first-child p:first-child:hover {
+    border-left: 3px solid #0099FF;
+}
+
+/*turns the lists into menus*/
+.titlebox blockquote ul {
+    float: right;
+    padding: 0px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+    margin: 0px;
+    color: #303030;
+}
+
+/*hide and styles lists*/
+.titlebox blockquote ul li {
+    display: none;
+    text-align: center;
+}
+
+/*makes whole list item selectable*/
+.titlebox blockquote li a {
+    padding: 7px 0px;
+    display: block;
+}
+
+/*shows menu on hover*/
+.titlebox blockquote ul li:first-child, .titlebox blockquote ul:hover li {
+    display: block;
+}
+
+/*turns top list item into section header*/
+.titlebox blockquote li:first-child {
+    font-size: 13pt;
+    padding: 5px;
+    cursor: default;
+}
+
+/*styling menu items*/
+.titlebox blockquote:first-child ul li:hover {
+    background: #fafafa;
+}
+
+.titlebox blockquote li a {
+    color: #505050;
+}
+
+.titlebox blockquote li a:hover {
+    color: #0099FF;
+}
+
+/**********************************************************************************************
+
+                                    Theme Specific Styles
+
+**********************************************************************************************/
+
+/****************************************************
+                Specific Wiki Styles
+****************************************************/
+
+#wiki_reseller_map, #wiki_reseller_map2, #wiki_reseller_map3, #wiki_reseller_map4, #wiki_reseller_map5, #wiki_reseller_map6, #wiki_reseller_map7, #wiki_reseller_map8, #wiki_reseller_map9 {
+    padding-left: 10px;
+}
+
+/****************************************************
+                RES Night Mode Fixes
+****************************************************/
+
+.res-nightmode .side .spacer .titlebox, .res-nightmode .side .spacer .sidecontentbox {
+    background: #444;
+}
+
+.res-nightmode .titlebox blockquote:first-child p:first-child {
+    background: transparent;
+    border: 1px solid #666;
+}
+
+.res-nightmode .titlebox table thead tr th {
+    background-color: #222 !important;
+    color: #999;
+}
+
+.res-nightmode .titlebox blockquote ul {
+    border: 1px solid #666;
+}
+
+.res-nightmode .titlebox blockquote li a {
+    color: #999;
+}
+
+.res-nightmode .side .spacer .titlebox, .res-nightmode .side .spacer .sidecontentbox {
+    border: 1px #555 solid;
+}
+
+.res-nightmode table, .res-nightmode th, .res-nightmode td {
+    border: 1px #555 solid;
+}
+
+.res-nightmode .wiki-page-content {
+    background: transparent;
+}
+
+.res-nightmode .wiki-page-content h1, .res-nightmode .wiki-page-content h2, .res-nightmode .wiki-page-content h3, .res-nightmode .wiki-page-content h4, .res-nightmode .wiki-page-content h5, .res-nightmode .wiki-page-content h6 {
+    color: #ccc !important;
+}
+
+.res-nightmode .wiki-page-content .md.wiki>.toc>ul {
+    background-color: #333;
+}
+
+.res-nightmode .titlebox blockquote:first-child ul li:hover {
+    background: #000;
+}
+
+.res-nightmode .linkinfo .date {
+    color: #999;
+    background-color: #000;
+    border-bottom: 1px solid #555;
+}
+
+.res-nightmode #header-bottom-right a {
+    color: #ccc;
+}
+
+.res-nightmode .linkinfo .score .number {
+    color: #ccc;
+}
+
+.res-nightmode .linkinfo .score .word {
+    color: #ccc;
+}
+
+.res-nightmode .linkinfo .score {
+    color: #ccc;
+}
+
+.res-nightmode .side blockquote {
+    background: transparent !important;
+}
+
+.res-nightmode .tabmenu li.selected a  {
+    background: #222;
+    color: #ccc;
+}
+
+.res-nightmode .linkinfo .shortlink, .res-nightmode .linkinfo .shortlink input {
+    color: #ccc;
+    border: 1px solid #555;
+}
+
+.res-nightmode .linkinfo .score, .res-nightmode .linkinfo .upvotes {
+    border-right: 1px solid #555;
+}
+
+.res-nightmode #search input[type=text] {
+border: 1px solid #555;
+}
+
+.res-nightmode #searchexpando {
+background-color: #444;
+border: 1px solid #555;
+}
+
+.res-nightmode tbody {
+background-color: #323232;
+}
+
+.res-nightmode .midcol {
+text-shadow: none;
+}
+
+
+
+.res-nightmode .arrow {
+    height: 17px;
+    width: 15px;
+    background-image: url(%%vote%%) !important;
+    margin: 2px auto;
+}
+
+.res-nightmode .arrow.down {
+    background-position: 0 -34px !important;
+}
+
+.res-nightmode .arrow.downmod {
+    background-position: 0 0 !important;
+}
+
+.res-nightmode .arrow.up {
+    background-position: 0 -102px !important;
+}
+
+.res-nightmode .arrow.upmod {
+    background-position: 0 -68px !important;
+}
+
+.res-nightmode .side .titlebox form.flairtoggle, .res-nightmode .side .leavemoderator, .res-nightmode .icon-menu a, .res-nightmode .side .spacer .titlebox .redditname {
+    background-color: #444;
+}
+
+.res-nightmode .side .usertext-body .md ol {
+    background-color: #323232 !important;
+}
+
+.res-nightmode .titlebox ol {
+    border-color: #555;
+}
+
+.res-nightmode .gold-accent {
+background-color: #222;
+border: solid 0px #e1b000;
+}
+
+.res-nightmode .gold-accent.comment-visits-box {
+color: #9a7d2e;
+}
+
+
+
+.res-nightmode .linklisting .linkflair {
+    background: #000;
+    border-left:3px #444 solid !important;
+}
+
+.res-nightmode.listing-page .linklisting .thing:hover {
+background-color:#212121;
+border-left:3px #aaa solid !important;
+}
+
+.res-nightmode.listing-page .linklisting .linkflair:hover {
+background-color:#111;
+}
+
+.res-nightmode .comment-area .thing.morechildren {
+background-color:#000;
+}
+
+.res-nightmode .linklisting .thing,.res-nightmode.listing-page .linklisting .linkflair {
+background-color:#000;
+border-color:#e3e3e3;
+}
+
+/****************************************************
+                    Text Additions
+****************************************************/
+
+.commentarea .child .usertext .usertext-edit:before {
+    content: "WARNING: posting pirated content will get you banned.  See rules 1 and 5.";
+    font-size: 11px;
+    color: #D63939;
+    font-weight: bold;
+}
+
+div#link-desc.infobar {
+    text-indent: -3000px;
+    font-size: 0;
+}
+
+div#link-desc.infobar:after {
+    position: relative;
+    display: block;
+    z-index: 1000;
+    width: auto;
+    border: none;
+    background-color: #F6E69F;
+    color: #000;
+    text-align: left;
+    font-size: 12px;
+    margin-left: 0;
+    font-weight: 400;
+    content: "No pirated content. This subreddit is for the discussion of usenet and for learning how to use usenet. You have been warned.";
+    text-indent: 0;
+    padding: 0;
+}
+
+.sidebox.submit:hover:before {
+    position: fixed;
+    display: block;
+    top: 0;
+    text-align: center;
+    background-color: #B22222;
+    color: #FEFEFE;
+    text-shadow: 1px 1px 1px #000 !important;
+    z-index: 1000;
+    width: 100%;
+    left: 0;
+    font-size: 16px;
+    font-weight: 600;
+    content: "Please read the rules before posting & make sure your post follows them. If it doesn't, it will be removed.";
+    padding: 6px 0;
+    border-bottom: 1px solid #333;
+}
+
+.titlebox h1 a:before {
+    content: "r/";
+}
+
+.pagename a:before{
+    content: "r/";
+}
+
+/****************************************************
+        Link changes color based on content
+****************************************************/
+
+a[href*="/w_"].title:link {
+    color: green;
+}
+
+a[href*="/w_"].title:visited {
+    color: #006400!important;
+}
+
+a[href*="/o_"].title:link {
+    color: #ff4500;
+}
+
+a[href*="/o_"].title:visited {
+    color: #ff4500!important;
+}
+
+
+
+
+
+
+.submit-page .formtabs-content .spacer:first-child {
+    margin-top: 385px;
+}
+.submit_text.roundfield .content {
+    border: none;
+    padding: 0px;
+}
+.submit_text.roundfield {
+    position: absolute;
+    max-height: 375px;
+    top: 155px;
+    overflow: auto;
+}
+
+.formtabs-content .infobar {
+    display: none;
+}

@@ -1,27 +1,39 @@
-
 ---
-
-    # Filter - Temporary throwaway / brigading / troll comment spam filter, review/approve manually
-    # /r/usenet/comments/66lu8r/nzbfinder_looking_good/ - Attracting random throwaway comments advertising nzbfinder
-    # /r/usenet/comments/672865/indexer_suggestions/ - Attracting many throwaway spam comments, mostly pro-nzbplanet anti-everything else
-    # /r/usenet/comments/82jfi4/im_a_reporter_writing_a_story_about_usenet/ - Attracting throwaway spam comments
-    # https://www.reddit.com/r/usenet/comments/aeaa4u/best_bang_for_buck_premium_indexer/ - Attracting throwaway spam comments
-    # https://www.reddit.com/r/usenet/comments/airq0j/in_your_opinion_who_has_the_most_active_community/
-    # https://www.reddit.com/r/usenet/comments/bt1x3y/newsgroupdirect_announcement_upstream_provider/
-    ## https://www.reddit.com/r/usenet/comments/c3jz4f/usenetserver_20_yearly_lifetime/
-    ## https://www.reddit.com/r/usenet/comments/c3r1b5/newsgroupdirect_provider_update/
-    ## https://www.reddit.com/r/usenet/comments/c370yk/newshosting_20yr_deal/
-    ## https://www.reddit.com/r/usenet/comments/c489et/newsdemon_vs_newsgroup_ninja_vs_newsnetserver/
-    ## https://www.reddit.com/r/usenet/comments/c4cwlp/mods_are_there_ever_going_to_be_any_consequences/
-    ## https://www.reddit.com/r/usenet/comments/n1zg7e/usenetfire_50_now_until_the_end_of_the_weekend/
-    type: comment
-    parent_submission:
-        id: [66lu8r, 672865, 6hz1cu, 82jfi4, aeaa4u, airq0j, bt1x3y, c370yk, c3jz4f, c3r1b5, c489et, c4cwlp, n1zg7e]
-    author:
-        account_age: < 186
-    action: filter
-    action_reason: Filter - Temporary throwaway / brigading / troll comment spam filter, review/approve manually
-
+# Filter - Temporary throwaway / brigading / troll comment spam filter, review/approve manually
+# /r/usenet/comments/66lu8r/nzbfinder_looking_good/ - Attracting random throwaway comments advertising nzbfinder
+# /r/usenet/comments/672865/indexer_suggestions/ - Attracting many throwaway spam comments, mostly pro-nzbplanet anti-everything else
+# /r/usenet/comments/82jfi4/im_a_reporter_writing_a_story_about_usenet/ - Attracting throwaway spam comments
+# https://www.reddit.com/r/usenet/comments/aeaa4u/best_bang_for_buck_premium_indexer/ - Attracting throwaway spam comments
+# https://www.reddit.com/r/usenet/comments/airq0j/in_your_opinion_who_has_the_most_active_community/
+# https://www.reddit.com/r/usenet/comments/bt1x3y/newsgroupdirect_announcement_upstream_provider/
+## https://www.reddit.com/r/usenet/comments/c3jz4f/usenetserver_20_yearly_lifetime/
+## https://www.reddit.com/r/usenet/comments/c3r1b5/newsgroupdirect_provider_update/
+## https://www.reddit.com/r/usenet/comments/c370yk/newshosting_20yr_deal/
+## https://www.reddit.com/r/usenet/comments/c489et/newsdemon_vs_newsgroup_ninja_vs_newsnetserver/
+## https://www.reddit.com/r/usenet/comments/c4cwlp/mods_are_there_ever_going_to_be_any_consequences/
+## https://www.reddit.com/r/usenet/comments/n1zg7e/usenetfire_50_now_until_the_end_of_the_weekend/
+type: comment
+parent_submission:
+    id:
+        [
+            66lu8r,
+            672865,
+            6hz1cu,
+            82jfi4,
+            aeaa4u,
+            airq0j,
+            bt1x3y,
+            c370yk,
+            c3jz4f,
+            c3r1b5,
+            c489et,
+            c4cwlp,
+            n1zg7e,
+        ]
+author:
+    account_age: < 186
+action: filter
+action_reason: Filter - Temporary throwaway / brigading / troll comment spam filter, review/approve manually
 ---
 
     # Filter - Possible Repeat Topic - Usenet.nl
@@ -61,7 +73,7 @@
     ## benpolatzki - Mostly removed comments / troll - https://www.reddit.com/r/usenet/comments/cjalof/what_is_the_replace_after_the_closing_of_nzbsorg/evcbfai/, https://www.reddit.com/r/usenet/comments/cjalof/what_is_the_replace_after_the_closing_of_nzbsorg/evc7ulu/, https://www.reddit.com/r/usenet/comments/cjalof/what_is_the_replace_after_the_closing_of_nzbsorg/evc1zzr/
     ## cleverestx - https://old.reddit.com/r/usenet/comments/k6qk6m/my_indexer_list_am_i_pretty_well_covered_with/gemk832/ https://old.reddit.com/r/usenet/comments/k6sqzu/is_discussing_indexers_as_these_are_used_for/
     ## gjoconnell - https://www.reddit.com/r/usenet/comments/azmi90/need_some_help_with_cp_nothing_is_getting_to/ei99557/
-    ## iSenri - https://www.reddit.com/r/usenet/comments/bn48jf/i_dont_get_why_people_pay_for_indexers/, https://www.reddit.com/r/usenet/comments/bmx52w/i_dont_get_why_people_pay_for_indexers/, https://www.reddit.com/r/usenet/comments/azhe1j/signed_up_for_nzbgeek_lifetime_curious_about_what/ei8zuxz/, 
+    ## iSenri - https://www.reddit.com/r/usenet/comments/bn48jf/i_dont_get_why_people_pay_for_indexers/, https://www.reddit.com/r/usenet/comments/bmx52w/i_dont_get_why_people_pay_for_indexers/, https://www.reddit.com/r/usenet/comments/azhe1j/signed_up_for_nzbgeek_lifetime_curious_about_what/ei8zuxz/,
     ## jdostal83 - https://www.reddit.com/r/usenet/comments/9xlect/finding_philippine_content/e9tag8s/
     ## josh-dmww - https://www.reddit.com/r/usenet/comments/b2j512/is_there_an_easier_way_to_download_complete/eitk2md/
     ## JustinBowers - https://www.reddit.com/r/usenet/comments/b30cia/nzb_cat_invites_i_have_5_to_givewho_wants/
@@ -115,13 +127,17 @@
 
 ---
 
-########## DO NOT ADD WITHOUT PERMISSION OF /u/BrettWilcox
-    # Indexer Owner Removal Request - Keywords
-#    title+body+url: [doe-hosting, doehosting, doevpn, oz-nzb, "oz nzb", oznzb]
-#    action: remove
-#    action_reason: Indexer Owner Removal Request - Keywords ({{match-1}})
-#    comment: |
-#        Your {{kind}} has been automatically removed. The owner has requested all mentions be removed.
+########## DO NOT ADD WITHOUT PERMISSION OF /u/BrettWilcox # Indexer Owner Removal Request - Keywords
+
+# title+body+url: [doe-hosting, doehosting, doevpn, oz-nzb, "oz nzb", oznzb]
+
+# action: remove
+
+# action_reason: Indexer Owner Removal Request - Keywords ({{match-1}})
+
+# comment: |
+
+# Your {{kind}} has been automatically removed. The owner has requested all mentions be removed.
 
 ---
 
@@ -263,7 +279,7 @@
     action_reason: Remove - Non Usenet related - Piracy generic body includes ({{match-body}})
     comment: |
         Your {{kind}} has been automatically removed. Only usenet related discussion is allowed in /r/Usenet. For discussion on general topics try /r/DigitalPiracy /r/Piracy.
-        
+
 ---
 
     # Remove - Non Usenet related - Radarr Title
@@ -290,8 +306,8 @@
     action: remove
     action_reason: Remove - Non Usenet related - Torrent Automation Title ({{match-title}})
     comment: |
-        Your {{kind}} has been automatically removed. Only usenet related discussion is allowed in /r/Usenet. For general discussion on torrents and automation try /r/htpc, /r/selfhosted, /r/homeserver.  
-        Or for PVR application specific automation try /r/CouchPotato, /r/pyMedusa, /r/Radarr, /r/SickChill, /r/SickGear, /r/Sonarr, /r/Watcher, etc.  
+        Your {{kind}} has been automatically removed. Only usenet related discussion is allowed in /r/Usenet. For general discussion on torrents and automation try /r/htpc, /r/selfhosted, /r/homeserver.
+        Or for PVR application specific automation try /r/CouchPotato, /r/pyMedusa, /r/Radarr, /r/SickChill, /r/SickGear, /r/Sonarr, /r/Watcher, etc.
         Or for automation with private torrent trackers try /r/Trackers.
 
 ---
@@ -302,8 +318,8 @@
     action: remove
     action_reason: Remove - Non Usenet related - Torrent Automation Body ({{match-body}})
     comment: |
-        Your {{kind}} has been automatically removed. Only usenet related discussion is allowed in /r/Usenet. For general discussion on torrents and automation try /r/htpc, /r/selfhosted, /r/homeserver.  
-        Or for PVR application specific automation try /r/CouchPotato, /r/pyMedusa, /r/Radarr, /r/SickChill, /r/SickGear, /r/Sonarr, /r/Watcher, etc.  
+        Your {{kind}} has been automatically removed. Only usenet related discussion is allowed in /r/Usenet. For general discussion on torrents and automation try /r/htpc, /r/selfhosted, /r/homeserver.
+        Or for PVR application specific automation try /r/CouchPotato, /r/pyMedusa, /r/Radarr, /r/SickChill, /r/SickGear, /r/Sonarr, /r/Watcher, etc.
         Or for automation with private torrent trackers try /r/Trackers.
 
 ---
@@ -384,9 +400,9 @@
     action: remove
     action_reason: Remove - Repeat Topics - 6box.me Down - Title ({{match-title}})
     comment: |
-        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.  
-        e.g.  
-        https://www.reddit.com/r/usenet/comments/cjr4bh/is_6box_ever_coming_back/  
+        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.
+        e.g.
+        https://www.reddit.com/r/usenet/comments/cjr4bh/is_6box_ever_coming_back/
         https://www.reddit.com/r/usenet/comments/biooy6/6box_down/
 
 ---
@@ -397,8 +413,8 @@
     action: remove
     action_reason: Remove - Repeat Topics - 6box.me Down - Title ({{match-title}})
     comment: |
-        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.  
-        e.g.  
+        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.
+        e.g.
         https://www.reddit.com/r/usenet/comments/cjs21d/abooks_down/
 
 ---
@@ -409,9 +425,9 @@
     action: remove
     action_reason: Remove - Repeat Topics - Fakes/Shortcut/Powershell - Title ({{match-title}})
     comment: |
-        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.  
-        e.g.  
-        https://www.reddit.com/r/usenet/comments/ap1cs4/whats_up_with_all_the_fakes_lately/  
+        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.
+        e.g.
+        https://www.reddit.com/r/usenet/comments/ap1cs4/whats_up_with_all_the_fakes_lately/
         https://www.reddit.com/r/usenet/comments/amplv8/movie_downloaded_a_powershell_script/
 
 ---
@@ -422,12 +438,12 @@
     action: remove
     action_reason: Remove - Repeat Topics - NewsGroupDirect Failures/Changes - Title ({{match-title}})
     comment: |
-        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.  
-        e.g.  
-        https://www.reddit.com/r/usenet/comments/cegi3a/looking_for_omicronhighwinds_provider_to_take/  
-        https://www.reddit.com/r/usenet/comments/cd0mxh/anyone_have_negative_experiences_recently_with_ngd/  
-        https://www.reddit.com/r/usenet/comments/c7vkju/newsgroupdirect_transition_final/  
-        https://www.reddit.com/r/usenet/comments/c3r1b5/newsgroupdirect_provider_update/  
+        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.
+        e.g.
+        https://www.reddit.com/r/usenet/comments/cegi3a/looking_for_omicronhighwinds_provider_to_take/
+        https://www.reddit.com/r/usenet/comments/cd0mxh/anyone_have_negative_experiences_recently_with_ngd/
+        https://www.reddit.com/r/usenet/comments/c7vkju/newsgroupdirect_transition_final/
+        https://www.reddit.com/r/usenet/comments/c3r1b5/newsgroupdirect_provider_update/
         https://www.reddit.com/r/usenet/comments/bt1x3y/newsgroupdirect_announcement_upstream_provider/
 
 ---
@@ -439,12 +455,12 @@
     action: remove
     action_reason: Remove - Repeat Topics - NewsGroupDirect Failures/Changes - Body A ({{match-body}})
     comment: |
-        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.  
-        e.g.  
-        https://www.reddit.com/r/usenet/comments/cegi3a/looking_for_omicronhighwinds_provider_to_take/  
-        https://www.reddit.com/r/usenet/comments/cd0mxh/anyone_have_negative_experiences_recently_with_ngd/  
-        https://www.reddit.com/r/usenet/comments/c7vkju/newsgroupdirect_transition_final/  
-        https://www.reddit.com/r/usenet/comments/c3r1b5/newsgroupdirect_provider_update/  
+        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.
+        e.g.
+        https://www.reddit.com/r/usenet/comments/cegi3a/looking_for_omicronhighwinds_provider_to_take/
+        https://www.reddit.com/r/usenet/comments/cd0mxh/anyone_have_negative_experiences_recently_with_ngd/
+        https://www.reddit.com/r/usenet/comments/c7vkju/newsgroupdirect_transition_final/
+        https://www.reddit.com/r/usenet/comments/c3r1b5/newsgroupdirect_provider_update/
         https://www.reddit.com/r/usenet/comments/bt1x3y/newsgroupdirect_announcement_upstream_provider/
 
 ---
@@ -456,12 +472,12 @@
     action: remove
     action_reason: Remove - Repeat Topics - NewsGroupDirect Failures/Changes - Body B ({{match-body}})
     comment: |
-        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.  
-        e.g.  
-        https://www.reddit.com/r/usenet/comments/cegi3a/looking_for_omicronhighwinds_provider_to_take/  
-        https://www.reddit.com/r/usenet/comments/cd0mxh/anyone_have_negative_experiences_recently_with_ngd/  
-        https://www.reddit.com/r/usenet/comments/c7vkju/newsgroupdirect_transition_final/  
-        https://www.reddit.com/r/usenet/comments/c3r1b5/newsgroupdirect_provider_update/  
+        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.
+        e.g.
+        https://www.reddit.com/r/usenet/comments/cegi3a/looking_for_omicronhighwinds_provider_to_take/
+        https://www.reddit.com/r/usenet/comments/cd0mxh/anyone_have_negative_experiences_recently_with_ngd/
+        https://www.reddit.com/r/usenet/comments/c7vkju/newsgroupdirect_transition_final/
+        https://www.reddit.com/r/usenet/comments/c3r1b5/newsgroupdirect_provider_update/
         https://www.reddit.com/r/usenet/comments/bt1x3y/newsgroupdirect_announcement_upstream_provider/
 
 ---
@@ -472,8 +488,8 @@
     action: remove
     action_reason: Remove - Repeat Topics - pfmonkey.com Down - Title ({{match-title}})
     comment: |
-        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.  
-        e.g.  
+        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.
+        e.g.
         https://www.reddit.com/r/usenet/comments/9ukcpk/pfmonkey_closing_nov_19/
 
 ---
@@ -484,17 +500,17 @@
     action: remove
     action_reason: Remove - Repeat Topics - Usenext.com - Title ({{match-title}})
     comment: |
-        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.  
-        e.g.  
-        https://www.reddit.com/r/usenet/comments/8osgdk/anyone_have_any_experiences_with_usenext_as_in/  
-        https://www.reddit.com/r/usenet/comments/6pzd3a/help_i_need_advice/  
-        https://www.reddit.com/r/usenet/comments/68bet9/can_not_login_to_usenext_to_cancel/  
-        https://www.reddit.com/r/usenet/comments/5naqm5/help_can_someone_confirm_for_me_that_i_have/  
-        https://www.reddit.com/r/usenet/comments/4sa5ho/canceling_usenext/  
-        https://www.reddit.com/r/usenet/comments/4pg4dj/help_how_to_cancel_usenext_account/  
-        https://www.reddit.com/r/usenet/comments/4jm7vs/word_of_caution_usenexts_14day_free_trial_is_free/  
+        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.
+        e.g.
+        https://www.reddit.com/r/usenet/comments/8osgdk/anyone_have_any_experiences_with_usenext_as_in/
+        https://www.reddit.com/r/usenet/comments/6pzd3a/help_i_need_advice/
+        https://www.reddit.com/r/usenet/comments/68bet9/can_not_login_to_usenext_to_cancel/
+        https://www.reddit.com/r/usenet/comments/5naqm5/help_can_someone_confirm_for_me_that_i_have/
+        https://www.reddit.com/r/usenet/comments/4sa5ho/canceling_usenext/
+        https://www.reddit.com/r/usenet/comments/4pg4dj/help_how_to_cancel_usenext_account/
+        https://www.reddit.com/r/usenet/comments/4jm7vs/word_of_caution_usenexts_14day_free_trial_is_free/
         https://www.reddit.com/r/usenet/comments/170yfp/usenext_and_their_disgusting_business_practices/
-        
+
         Alternatively, for topics on charges, credits, chargebacks, legal issues, etc. try /r/PersonalFinance, /r/LegalAdviceOfftopic, /r/LegalAdvice
 
 ---
@@ -505,17 +521,17 @@
     action: remove
     action_reason: Remove - Repeat Topics - Usenext.com - Title Full Match ({{match-title}})
     comment: |
-        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.  
-        e.g.  
-        https://www.reddit.com/r/usenet/comments/8osgdk/anyone_have_any_experiences_with_usenext_as_in/  
-        https://www.reddit.com/r/usenet/comments/6pzd3a/help_i_need_advice/  
-        https://www.reddit.com/r/usenet/comments/68bet9/can_not_login_to_usenext_to_cancel/  
-        https://www.reddit.com/r/usenet/comments/5naqm5/help_can_someone_confirm_for_me_that_i_have/  
-        https://www.reddit.com/r/usenet/comments/4sa5ho/canceling_usenext/  
-        https://www.reddit.com/r/usenet/comments/4pg4dj/help_how_to_cancel_usenext_account/  
-        https://www.reddit.com/r/usenet/comments/4jm7vs/word_of_caution_usenexts_14day_free_trial_is_free/  
+        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.
+        e.g.
+        https://www.reddit.com/r/usenet/comments/8osgdk/anyone_have_any_experiences_with_usenext_as_in/
+        https://www.reddit.com/r/usenet/comments/6pzd3a/help_i_need_advice/
+        https://www.reddit.com/r/usenet/comments/68bet9/can_not_login_to_usenext_to_cancel/
+        https://www.reddit.com/r/usenet/comments/5naqm5/help_can_someone_confirm_for_me_that_i_have/
+        https://www.reddit.com/r/usenet/comments/4sa5ho/canceling_usenext/
+        https://www.reddit.com/r/usenet/comments/4pg4dj/help_how_to_cancel_usenext_account/
+        https://www.reddit.com/r/usenet/comments/4jm7vs/word_of_caution_usenexts_14day_free_trial_is_free/
         https://www.reddit.com/r/usenet/comments/170yfp/usenext_and_their_disgusting_business_practices/
-        
+
         Alternatively, for topics on charges, credits, chargebacks, legal issues, etc. try /r/PersonalFinance, /r/LegalAdviceOfftopic, /r/LegalAdvice
 
 ---
@@ -525,17 +541,17 @@
     action: remove
     action_reason: Remove - Repeat Topics - Usenext.com - Title Regex ({{match-title}}
     comment: |
-        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.  
-        e.g.  
-        https://www.reddit.com/r/usenet/comments/8osgdk/anyone_have_any_experiences_with_usenext_as_in/  
-        https://www.reddit.com/r/usenet/comments/6pzd3a/help_i_need_advice/  
-        https://www.reddit.com/r/usenet/comments/68bet9/can_not_login_to_usenext_to_cancel/  
-        https://www.reddit.com/r/usenet/comments/5naqm5/help_can_someone_confirm_for_me_that_i_have/  
-        https://www.reddit.com/r/usenet/comments/4sa5ho/canceling_usenext/  
-        https://www.reddit.com/r/usenet/comments/4pg4dj/help_how_to_cancel_usenext_account/  
-        https://www.reddit.com/r/usenet/comments/4jm7vs/word_of_caution_usenexts_14day_free_trial_is_free/  
+        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.
+        e.g.
+        https://www.reddit.com/r/usenet/comments/8osgdk/anyone_have_any_experiences_with_usenext_as_in/
+        https://www.reddit.com/r/usenet/comments/6pzd3a/help_i_need_advice/
+        https://www.reddit.com/r/usenet/comments/68bet9/can_not_login_to_usenext_to_cancel/
+        https://www.reddit.com/r/usenet/comments/5naqm5/help_can_someone_confirm_for_me_that_i_have/
+        https://www.reddit.com/r/usenet/comments/4sa5ho/canceling_usenext/
+        https://www.reddit.com/r/usenet/comments/4pg4dj/help_how_to_cancel_usenext_account/
+        https://www.reddit.com/r/usenet/comments/4jm7vs/word_of_caution_usenexts_14day_free_trial_is_free/
         https://www.reddit.com/r/usenet/comments/170yfp/usenext_and_their_disgusting_business_practices/
-        
+
         Alternatively, for topics on charges, credits, chargebacks, legal issues, etc. try /r/PersonalFinance, /r/LegalAdviceOfftopic, /r/LegalAdvice
 
 ---
@@ -546,17 +562,17 @@
     action: remove
     action_reason: Remove - Repeat Topics - Usenext.com - Body ({{match-body}})
     comment: |
-        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.  
-        e.g.  
-        https://www.reddit.com/r/usenet/comments/8osgdk/anyone_have_any_experiences_with_usenext_as_in/  
-        https://www.reddit.com/r/usenet/comments/6pzd3a/help_i_need_advice/  
-        https://www.reddit.com/r/usenet/comments/68bet9/can_not_login_to_usenext_to_cancel/  
-        https://www.reddit.com/r/usenet/comments/5naqm5/help_can_someone_confirm_for_me_that_i_have/  
-        https://www.reddit.com/r/usenet/comments/4sa5ho/canceling_usenext/  
-        https://www.reddit.com/r/usenet/comments/4pg4dj/help_how_to_cancel_usenext_account/  
-        https://www.reddit.com/r/usenet/comments/4jm7vs/word_of_caution_usenexts_14day_free_trial_is_free/  
+        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.
+        e.g.
+        https://www.reddit.com/r/usenet/comments/8osgdk/anyone_have_any_experiences_with_usenext_as_in/
+        https://www.reddit.com/r/usenet/comments/6pzd3a/help_i_need_advice/
+        https://www.reddit.com/r/usenet/comments/68bet9/can_not_login_to_usenext_to_cancel/
+        https://www.reddit.com/r/usenet/comments/5naqm5/help_can_someone_confirm_for_me_that_i_have/
+        https://www.reddit.com/r/usenet/comments/4sa5ho/canceling_usenext/
+        https://www.reddit.com/r/usenet/comments/4pg4dj/help_how_to_cancel_usenext_account/
+        https://www.reddit.com/r/usenet/comments/4jm7vs/word_of_caution_usenexts_14day_free_trial_is_free/
         https://www.reddit.com/r/usenet/comments/170yfp/usenext_and_their_disgusting_business_practices/
-        
+
         Alternatively, for topics on charges, credits, chargebacks, legal issues, etc. try /r/PersonalFinance, /r/LegalAdviceOfftopic, /r/LegalAdvice
 
 ---
@@ -567,19 +583,19 @@
     action: remove
     action_reason: Remove - Repeat Topics - Usenet.nl - Title ({{match-title}})
     comment: |
-        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.  
-        e.g.  
-        https://www.reddit.com/r/usenet/comments/8nqthw/got_lured_into_creating_a_free_usenetnl_trial/  
-        https://www.reddit.com/r/usenet/comments/6qqxuy/usenetnl_cancellation_worries/  
-        https://www.reddit.com/r/usenet/comments/5n4nez/help_with_usenetnl_cancellation_please/  
-        https://www.reddit.com/r/usenet/comments/554uhn/usenetnl_is_a_scam/  
-        https://www.reddit.com/r/usenet/comments/4zvpr4/49_for_3_years_with_usenetnl_does_anyone_have_any/  
-        https://www.reddit.com/r/usenet/comments/4vpx3o/my_account_was_deleted_automatically/  
-        https://www.reddit.com/r/usenet/comments/4v7vys/reminder_mail/  
-        https://www.reddit.com/r/usenet/comments/4q4ug0/usenetnl/  
-        https://www.reddit.com/r/usenet/comments/4gmshv/how_to_cancel_usenetnl_account/  
+        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.
+        e.g.
+        https://www.reddit.com/r/usenet/comments/8nqthw/got_lured_into_creating_a_free_usenetnl_trial/
+        https://www.reddit.com/r/usenet/comments/6qqxuy/usenetnl_cancellation_worries/
+        https://www.reddit.com/r/usenet/comments/5n4nez/help_with_usenetnl_cancellation_please/
+        https://www.reddit.com/r/usenet/comments/554uhn/usenetnl_is_a_scam/
+        https://www.reddit.com/r/usenet/comments/4zvpr4/49_for_3_years_with_usenetnl_does_anyone_have_any/
+        https://www.reddit.com/r/usenet/comments/4vpx3o/my_account_was_deleted_automatically/
+        https://www.reddit.com/r/usenet/comments/4v7vys/reminder_mail/
+        https://www.reddit.com/r/usenet/comments/4q4ug0/usenetnl/
+        https://www.reddit.com/r/usenet/comments/4gmshv/how_to_cancel_usenetnl_account/
         https://www.reddit.com/r/usenet/comments/44y8g3/help_canceling_usenetnl_free_trial/
-        
+
         Alternatively, for topics on charges, credits, chargebacks, legal issues, etc. try /r/PersonalFinance, /r/LegalAdviceOfftopic, /r/LegalAdvice
 
 ---
@@ -590,19 +606,19 @@
     action: remove
     action_reason: Remove - Repeat Topics - Usenet.nl - Title Full Match ({{match-title}})
     comment: |
-        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.  
-        e.g.  
-        https://www.reddit.com/r/usenet/comments/8nqthw/got_lured_into_creating_a_free_usenetnl_trial/  
-        https://www.reddit.com/r/usenet/comments/6qqxuy/usenetnl_cancellation_worries/  
-        https://www.reddit.com/r/usenet/comments/5n4nez/help_with_usenetnl_cancellation_please/  
-        https://www.reddit.com/r/usenet/comments/554uhn/usenetnl_is_a_scam/  
-        https://www.reddit.com/r/usenet/comments/4zvpr4/49_for_3_years_with_usenetnl_does_anyone_have_any/  
-        https://www.reddit.com/r/usenet/comments/4vpx3o/my_account_was_deleted_automatically/  
-        https://www.reddit.com/r/usenet/comments/4v7vys/reminder_mail/  
-        https://www.reddit.com/r/usenet/comments/4q4ug0/usenetnl/  
-        https://www.reddit.com/r/usenet/comments/4gmshv/how_to_cancel_usenetnl_account/  
+        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.
+        e.g.
+        https://www.reddit.com/r/usenet/comments/8nqthw/got_lured_into_creating_a_free_usenetnl_trial/
+        https://www.reddit.com/r/usenet/comments/6qqxuy/usenetnl_cancellation_worries/
+        https://www.reddit.com/r/usenet/comments/5n4nez/help_with_usenetnl_cancellation_please/
+        https://www.reddit.com/r/usenet/comments/554uhn/usenetnl_is_a_scam/
+        https://www.reddit.com/r/usenet/comments/4zvpr4/49_for_3_years_with_usenetnl_does_anyone_have_any/
+        https://www.reddit.com/r/usenet/comments/4vpx3o/my_account_was_deleted_automatically/
+        https://www.reddit.com/r/usenet/comments/4v7vys/reminder_mail/
+        https://www.reddit.com/r/usenet/comments/4q4ug0/usenetnl/
+        https://www.reddit.com/r/usenet/comments/4gmshv/how_to_cancel_usenetnl_account/
         https://www.reddit.com/r/usenet/comments/44y8g3/help_canceling_usenetnl_free_trial/
-        
+
         Alternatively, for topics on charges, credits, chargebacks, legal issues, etc. try /r/PersonalFinance, /r/LegalAdviceOfftopic, /r/LegalAdvice
 
 ---
@@ -613,19 +629,19 @@
     action: remove
     action_reason: Remove - Repeat Topics - Usenet.nl - Body ({{match-body}})
     comment: |
-        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.  
-        e.g.  
-        https://www.reddit.com/r/usenet/comments/8nqthw/got_lured_into_creating_a_free_usenetnl_trial/  
-        https://www.reddit.com/r/usenet/comments/6qqxuy/usenetnl_cancellation_worries/  
-        https://www.reddit.com/r/usenet/comments/5n4nez/help_with_usenetnl_cancellation_please/  
-        https://www.reddit.com/r/usenet/comments/554uhn/usenetnl_is_a_scam/  
-        https://www.reddit.com/r/usenet/comments/4zvpr4/49_for_3_years_with_usenetnl_does_anyone_have_any/  
-        https://www.reddit.com/r/usenet/comments/4vpx3o/my_account_was_deleted_automatically/  
-        https://www.reddit.com/r/usenet/comments/4v7vys/reminder_mail/  
-        https://www.reddit.com/r/usenet/comments/4q4ug0/usenetnl/  
-        https://www.reddit.com/r/usenet/comments/4gmshv/how_to_cancel_usenetnl_account/  
+        Your {{kind}} has been removed automatically. The topic has already been discussed in prior posts, feel free to search /r/Usenet.
+        e.g.
+        https://www.reddit.com/r/usenet/comments/8nqthw/got_lured_into_creating_a_free_usenetnl_trial/
+        https://www.reddit.com/r/usenet/comments/6qqxuy/usenetnl_cancellation_worries/
+        https://www.reddit.com/r/usenet/comments/5n4nez/help_with_usenetnl_cancellation_please/
+        https://www.reddit.com/r/usenet/comments/554uhn/usenetnl_is_a_scam/
+        https://www.reddit.com/r/usenet/comments/4zvpr4/49_for_3_years_with_usenetnl_does_anyone_have_any/
+        https://www.reddit.com/r/usenet/comments/4vpx3o/my_account_was_deleted_automatically/
+        https://www.reddit.com/r/usenet/comments/4v7vys/reminder_mail/
+        https://www.reddit.com/r/usenet/comments/4q4ug0/usenetnl/
+        https://www.reddit.com/r/usenet/comments/4gmshv/how_to_cancel_usenetnl_account/
         https://www.reddit.com/r/usenet/comments/44y8g3/help_canceling_usenetnl_free_trial/
-        
+
         Alternatively, for topics on charges, credits, chargebacks, legal issues, etc. try /r/PersonalFinance, /r/LegalAdviceOfftopic, /r/LegalAdvice
 
 ---
@@ -748,30 +764,35 @@
 
 ---
 
-   # Spam - Troll Submission/Comment from 0-day Reddit account
-   ## Suspected mark134uk (pro nzbplanet troll) throwaway post/comment keywords - kaaki, kaalki, mannibis, nastypatrick, nzbplanet, nzbplanet.net, patrick, planet
-   body: [kaaki, kaalki, mannibis, nastypatrick, nzbplanet, nzbplanet.net, patrick, planet]
-   author:
-       combined_karma: < 5
-       account_age: < 31
-   priority: 1
-   action: spam
-   action_reason: Spam - Troll Submission/Comment from 0-day Reddit account {{match-0}}
+# Spam - Troll Submission/Comment from 0-day Reddit account
+
+## Suspected mark134uk (pro nzbplanet troll) throwaway post/comment keywords - kaaki, kaalki, mannibis, nastypatrick, nzbplanet, nzbplanet.net, patrick, planet
+
+body: [kaaki, kaalki, mannibis, nastypatrick, nzbplanet, nzbplanet.net, patrick, planet]
+author:
+combined_karma: < 5
+account_age: < 31
+priority: 1
+action: spam
+action_reason: Spam - Troll Submission/Comment from 0-day Reddit account {{match-0}}
 
 ---
 
-   # Spam - Suspected Troll Submission/Comment from 0-day Reddit account on Specific Posts
-   ## https://www.reddit.com/r/usenet/comments/5vif1b/dognzb_paid_member/
-   ## https://www.reddit.com/r/usenet/comments/5vga9f/dognzb_raising_prices_33_to_50_call_it_a_small/
-   type: comment
-   parent_submission:
-      id: [5vga9f, 5vif1b]
-   author:
-       combined_karma: < 5
-       account_age: < 31
-   priority: 1
-   action: spam
-   action_reason: Spam - Suspected Troll Submission/Comment from 0-day Reddit account on Specific Posts {{match-id}}
+# Spam - Suspected Troll Submission/Comment from 0-day Reddit account on Specific Posts
+
+## https://www.reddit.com/r/usenet/comments/5vif1b/dognzb_paid_member/
+
+## https://www.reddit.com/r/usenet/comments/5vga9f/dognzb_raising_prices_33_to_50_call_it_a_small/
+
+type: comment
+parent_submission:
+id: [5vga9f, 5vif1b]
+author:
+combined_karma: < 5
+account_age: < 31
+priority: 1
+action: spam
+action_reason: Spam - Suspected Troll Submission/Comment from 0-day Reddit account on Specific Posts {{match-id}}
 
 ---
 
@@ -783,7 +804,8 @@
 
 ---
 
-   # Spam - Words/Phrases includes
+# Spam - Words/Phrases includes
+
     title+body+url (includes): ["talk/", "talk /", "usenetproviderdeals", "usenet provider deals", "r/usenetgroups", "r/usenetIndexers", "r/usenettalk", "usenet talk"]
     priority: 1
     action: spam
@@ -877,6 +899,7 @@
     action_reason: Remove Submission - Rule 1 Removal bittorrent hash ({{match-0}})
     comment: |
         Your {{kind}} has been automatically removed from /r/usenet per rule #1. Please refer to the sidebar rules for more info.
+
 ---
 
     # Post Title Rule 1 Filter
@@ -924,7 +947,7 @@
     action_reason: Comment Rule 4 Removal - Invite Offer/Request (wrong sub) Phrase ({{match-0}})
     comment: |
         Your {{kind}} has been automatically removed from /r/Usenet per sidebar rules
-        
+
         * No Invite/Account requests or offers
 
 ---
@@ -937,7 +960,7 @@
     action_reason: Comment Rule 4 Removal - Invite Offer/Request (wrong sub) Phrase Indexer ({{match-body}}, {{match-body#indexer}})
     comment: |
         Your {{kind}} has been automatically removed from /r/Usenet per sidebar rules
-        
+
         * No Invite/Account requests or offers
 
 ---
@@ -950,7 +973,7 @@
     action_reason: Comment Rule 4 Removal - Invite Offer/Request (wrong sub) ({{match-0}})
     comment: |
         Your {{kind}} has been automatically removed from /r/Usenet per sidebar rules
-        
+
         * No Invite/Account requests or offers
 
 ---
@@ -963,7 +986,7 @@
     action_reason: Comment Rule 4 Removal - Invite Offer/Request (wrong sub) indexer ({{match-0}})
     comment: |
         Your {{kind}} has been automatically removed from /r/Usenet per sidebar rules
-        
+
         * No Invite/Account requests or offers
 
 ---
@@ -975,7 +998,7 @@
     action_reason: Comment Rule 4 Removal - Invite Offer/Request (wrong sub) Regex ({{match-0}})
     comment: |
         Your {{kind}} has been automatically removed from /r/Usenet per sidebar rules
-        
+
         * No Invite/Account requests or offers
 
 ---
@@ -987,7 +1010,7 @@
     action_reason: Post Rule 4 Removal - Invite Offer/Request (wrong sub) Title ({{match-0}})
     comment: |
         Your {{kind}} has been automatically removed from /r/Usenet per sidebar rules
-        
+
         * No Invite/Account requests or offers
 
 ---
@@ -999,7 +1022,7 @@
     action_reason: Post Rule 4 Removal - Invite Offer/Request Indexer specific (wrong sub) Title ({{match-0}})
     comment: |
         Your {{kind}} has been automatically removed from /r/Usenet per sidebar rules
-        
+
         * No Invite/Account requests or offers
 
 ---
@@ -1011,7 +1034,7 @@
     action_reason: Post Rule 4 Removal - Invite Offer/Request (wrong sub) Tag ({{match-0}})
     comment: |
         Your {{kind}} has been automatically removed from /r/Usenet per sidebar rules
-        
+
         * No Invite/Account requests or offers
 
 ---
@@ -1023,7 +1046,7 @@
     action_reason: Post/Comment Rule 4 Removal - Intentional Invite Attempt Regex ({{match-0}})
     comment: |
         Your {{kind}} has been automatically removed from /r/Usenet per sidebar rules
-        
+
         * No Invite/Account requests or offers
 
 ---
@@ -1034,7 +1057,7 @@
     action_reason: Post/Comment Rule 4 Removal - Invite Offer (wrong sub) Regex
     comment: |
         Your {{kind}} has been automatically removed from /r/Usenet per sidebar rules
-        
+
         * No Invite/Account requests or offers
 
 ---
@@ -1048,7 +1071,7 @@
     action_reason: Post Title/Body Rule 4 Removal - Invite Offer/Request (wrong sub) ({{match-0}}, {{match-1}})
     comment: |
         Your {{kind}} has been automatically removed from /r/Usenet per sidebar rules
-        
+
         * No Invite/Account requests or offers
 
 ---
@@ -1062,7 +1085,7 @@
     action_reason: Post Rule 4 Removal - Account Offer/Request/Trade/Share ({{match-0}}, {{match-1}})
     comment: |
         Your {{kind}} has been automatically removed from /r/Usenet per sidebar rules
-        
+
         * No Invite/Account requests or offers
 
 ---
@@ -1074,7 +1097,7 @@
     action_reason: Comment Body Rule 4 Removal - Account Offer/Request/Trade/Share ({{match-0}}, {{match-1}})
     comment: |
         Your {{kind}} has been automatically removed from /r/Usenet per sidebar rules
-        
+
         * No Invite/Account requests or offers
 
 ---
@@ -1092,7 +1115,7 @@
     action_reason: Post/Comment Rule 5 Removals - Domains ({{match-0}})
     comment: |
         Your {{kind}} has been automatically removed from /r/usenet per sidebar rules
-        
+
         * No promoting of 'backdoor' access into usenet providers' networks.
 
 ---
@@ -1110,7 +1133,7 @@
     action_reason: Post/Comment Rule 5 Removals - Domains non-domain syntax ({{match-0}})
     comment: |
         Your {{kind}} has been automatically removed from /r/usenet per sidebar rules
-        
+
         * No promoting of 'backdoor' access into usenet providers' networks.
 
 ---
@@ -1122,7 +1145,7 @@
     action_reason: Post/Comment Rule 5 Removals - Domains - usenet-crawler/verycouch
     comment: |
         Your {{kind}} has been automatically removed from /r/usenet per sidebar rules
-        
+
         * No promoting of 'backdoor' access into usenet providers' networks.
 
 ---
@@ -1134,7 +1157,7 @@
     action_reason: Post/Comment Rule 5 Removals - Words/Phrases ({{match-0}})
     comment: |
         Your {{kind}} has been automatically removed from /r/usenet per sidebar rules
-        
+
         * No promoting of 'backdoor' access into usenet providers' networks.
 
 ---
@@ -1146,7 +1169,7 @@
     action_reason: Post/Comment Rule 5 Removals - usenet-crawler
     comment: |
         Your {{kind}} has been automatically removed from /r/usenet per sidebar rules
-        
+
         * No promoting of 'backdoor' access into usenet providers' networks.
 
 ---
@@ -1159,7 +1182,7 @@
     action_reason: Post/Comment Rule 5 Removals - Words/Phrases Regex ({{match-0}})
     comment: |
         Your {{kind}} has been automatically removed from /r/usenet per sidebar rules
-        
+
         * No promoting of 'backdoor' access into usenet providers' networks.
 
 ---
