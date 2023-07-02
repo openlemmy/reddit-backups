@@ -29,6 +29,7 @@
     # Domain blacklist
     domain: [leopardkingsaga.com]
     action: spam
+
 ---
 
     #1 Flair setting
